@@ -101,9 +101,10 @@ nav a {
 
 .content {
   grid-area: content;
-  display: flex;
   animation-name: toLeft;
   animation-duration: 0.8s;
+  background-color: #48a6a7;
+  padding: 20px;
 }
 
 #prodone {
@@ -115,5 +116,17 @@ nav a {
 }
 
 #prodthree {
+  display: none;
+}
+
+#prodfour {
+  display: none;
+}
+
+#prodfive {
+  display: none;
+}
+
+#prodsix {
   display: none;
 }

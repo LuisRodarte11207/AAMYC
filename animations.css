@@ -1,6 +1,6 @@
 @keyframes toRight {
   from {
-    transform: translateX(-1000px);
+    transform: translateX(-200%);
   }
   to {
     transform: translateX(0);
@@ -9,7 +9,7 @@
 
 @keyframes toLeft {
   from {
-    transform: translateX(1000px);
+    transform: translateX(200%);
   }
   to {
     transform: translateX(0);
@@ -18,7 +18,7 @@
 
 @keyframes toUp {
   from {
-    transform: translateY(1000px);
+    transform: translateY(200%);
   }
   to {
     transform: translateY(0);
@@ -27,7 +27,7 @@
 
 @keyframes toDown {
   from {
-    transform: translateY(-1000px);
+    transform: translateY(-200%);
   }
   to {
     transform: translateY(0);
