@@ -94,3 +94,30 @@ nav a {
   animation-name: toUp;
   animation-duration: 0.8s;
 }
+
+.content {
+  background-color: #9acbd0;
+  text-align: center;
+  padding: 20px;
+  animation-name: opacity;
+  animation-duration: 2s;
+}
+
+iframe {
+  display: flex;
+  margin: auto;
+}
+
+.content p {
+  font-size: 24px;
+}
+
+.content ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.content ul li {
+  text-align: left;
+}
